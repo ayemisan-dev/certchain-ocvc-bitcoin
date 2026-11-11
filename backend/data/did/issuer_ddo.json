@@ -1,0 +1,18 @@
+{
+  "@context": "https://w3id.org/did-resolution/v1",
+  "didDocument": {
+    "@context": ["https://www.w3.org/ns/did/v1", "https://w3id.org/security/v2"],
+    "verificationMethod": [{
+      "id": "#vckey-0",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "publicKeyHex": "03bb561e3fb73b43bb0e6303c90b46c7ffa0fe6bb08a51727b3d8cb0ae8709fa01"
+    }],
+    "authentication": ["#satoshi"],
+    "assertionMethod": ["#vckey-0"]
+  },
+  "didDocumentMetadata": {
+    "versionId": 1,
+    "created": "2025-01-01T00:00:00Z",
+    "updated": "2025-01-01T00:00:00Z"
+  }
+}

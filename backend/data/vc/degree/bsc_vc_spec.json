@@ -1,0 +1,105 @@
+[
+	{
+		"name": "On-chain Verifiable Credential Protocol",
+		"version": "1.0"
+	},
+	{
+		"@context": [
+			"https://www.w3.org/2018/credentials/v1",
+			"https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.2.json",
+			"https://w3id.org/vc-revocation-list-2020/v1",
+			{
+				"@base": "https://www.kmitl.ac.th/",
+				"dateIssued": "https://schema.org/dateIssued",
+				"givenName": "https://schema.org/givenName",
+				"familyName": "https://schema.org/familyName",
+				"studentId": "https://www.kmitl.ac.th/student#studentId",
+				"dateOfBirth": "https://www.kmitl.ac.th/student#dateOfBirth",
+				"Course": "https://schema.org/course",
+				"courseCode": "https://schema.org/courseCode",
+				"courseName": "https://schema.org/courseName",
+				"credit": "https://schema.org/numberOfCredits",
+				"grade": "https://schema.org/assesses",
+				"department":"https://www.kmitl.ac.th/department",
+				"program": "https://www.kmitl.ac.th/program",
+				"totalCredits": "https://www.kmitl.ac.th/program#totalCredits",
+				"dateofAdmission": "https://www.kmitl.ac.th/program#dateofAdmission",
+				"dateofGraduation": "https://www.kmitl.ac.th/program#dateofGraduation",
+				"semester": "https://www.kmitl.ac.th/transcriptRecord#semester",
+				"GPS": "https://www.kmitl.ac.th/transcriptRecord#GPS",
+				"GPA": "https://www.kmitl.ac.th/transcriptRecord#GPA",
+				"transcriptRecord": "https://www.kmitl.ac.th/transcriptRecord",
+				"enrollmentRecord": "https://www.kmitl.ac.th/transcriptRecord/enrollmentRecord",
+				"issuer": "https://www.kmitl.ac.th/credentials/status#issuer",
+				"revocationListIndex": "https://www.kmitl.ac.th/credentials/status#revocationListIndex",
+				"revocationListAddress": "https://www.kmitl.ac.th/credentials/status#revocationListAddress",
+				"val": "https://www.kmitl.ac.th/credentials/status#val"
+			}
+		],
+		"id": {},
+		"type": [
+			"VerifiableCredential",
+			"AchievementCredential"
+		],
+		"name": "University Degree",
+		"issuer": {
+			"id": [],
+			"type": "Profile",
+			"department":"School of Information Technology",
+			"name": "King Mongkut's Institute of Technology Ladkrabang",
+			"address": {
+				"type": "Address",
+				"streetAddress": "1 Chalongkrung Road, Ladkrabang District, Bangkok",
+				"addressCountry": "Thailand"
+			}
+		},
+		"dateIssued": {},
+		"credentialSubject": {
+			"id": {},
+			"type": "AchievementSubject",
+			"familyName": {},
+			"givenName": {},
+			"studentId": {},
+			"dateOfBirth": {},
+			"program": "Information Technology",
+			"achievement": {
+				"id": "a/bsit",
+				"type": "Achievement",
+				"achievementType": "BachelorDegree",
+				"name": "Bachelor of Science Program in Information Technology",
+				"dateofAdmission": {},
+				"dateofGraduation": {},
+				"totalCredits": {},
+				"GPA": {},
+				"description": "This credential represents successful completion of a Bachelor's degree in Computer Science."
+			},
+			"transcriptRecord": {
+				"semester": {},
+				"GPS": {},
+				"GPA": {},
+				"enrollmentRecord": {
+					"id": {},
+					"type": "Course",
+					"grade": {}
+				}
+			}
+		},
+		"credentialStatus": {
+			"id": {},
+			"type": [],
+			"issuer": [],
+			"revocationListIndex": {},
+			"revocationListAddress": {
+				"type": [],
+				"val": {}
+			}
+		},
+		"Course": {
+			"id": [],
+			"courseCode": [],
+			"courseName": [],
+			"credit": []
+		}
+	},
+	{}
+]

@@ -1,0 +1,44 @@
+# ─── Secrets ────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+backend/configs/**/*.json
+!backend/configs/**/*.example.json
+
+# ─── Python ────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# ─── LevelDB ───────────────────────────────
+indexer/var/
+*.ldb
+*.log
+
+# ─── Bitcoin / IPFS local data ───────────────────────────
+bitcoin-data/
+ipfs-data/
+
+# ─── IDE ───────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ─── macOS ─────────────────────────────────────────────
+.DS_Store
+
+backend/result/
+example_vc/
+*.pyc

@@ -1,0 +1,11 @@
+{
+  "tx_type": "PI",
+  "data_type": "Tx_Data_ScriptHash",
+  "segwit_status": "create",
+  "data_path": "backend/data/vc/degree/bsc_vi.json",
+  "prev_txid": "REPLACE_WITH_PS_SPEND_TXID",
+  "vout": 0,
+  "send_value": 9.97,
+  "priv_key": "REPLACE_WITH_WIF_PRIVATE_KEY",
+  "pub_key": ""
+}

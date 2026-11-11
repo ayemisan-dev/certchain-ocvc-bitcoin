@@ -1,0 +1,11 @@
+{
+  "tx_type": "PS",
+  "data_type": "Tx_Data_ScriptHash",
+  "segwit_status": "create",
+  "data_path": "backend/data/vc/revocation/revoke_vc_temp.json",
+  "prev_txid": "REPLACE_WITH_64_HEX_CHARS",
+  "vout": 0,
+  "send_value": 9.99,
+  "priv_key": "REPLACE_WITH_REVOCATION_WIF_KEY",
+  "pub_key": ""
+}

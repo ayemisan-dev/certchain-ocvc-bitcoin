@@ -1,0 +1,1 @@
+"""DID (Decentralized Identifier) resolution for did:btcr."""

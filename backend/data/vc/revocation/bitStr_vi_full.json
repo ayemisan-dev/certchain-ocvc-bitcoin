@@ -1,0 +1,27 @@
+[
+    [
+        "VerifiableCredential",
+        "OCVCRevListBtsCredential"
+    ],
+    "did:btcr:xjxq-qyqq-qqdg-t4kr",
+    [
+        [
+            [
+                "OCVCRevListBts",
+                "FullSnapshot"
+            ],
+            [
+                32,
+                2
+            ],
+            null,
+            null,
+            [
+                "academic_misconduct",
+                "administrative_error",
+                "fraud",
+                "Others"
+            ]
+        ]
+    ]
+]

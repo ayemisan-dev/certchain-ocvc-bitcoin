@@ -1,0 +1,11 @@
+{
+	"header": {
+		"alg": "ES256",
+		"typ": "ovc+ld+jwt"
+	},
+	"payload": [],
+	"proof": {
+		"bcn": "btc:regtest",
+		"tid": ""
+	}
+}

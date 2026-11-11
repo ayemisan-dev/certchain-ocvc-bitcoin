@@ -1,0 +1,38 @@
+[
+	{
+		"name": "On-chain Verifiable Credential Protocol",
+		"version": "1.0"
+	},
+	{
+		"@context": [
+			"https://www.w3.org/2018/credentials/v1",
+			"https://w3id.org/vc-revocation-list-2020/v1",
+			{
+				"@base": "https://example.com/credentials/status/v1/",
+				"dateIssued": "https://schema.org/dateIssued",
+				"revocationListParam": "https://example.com/revocationListParam",
+				"revocationList": "https://example.com/revocationList",
+				"reason": "https://example.com/reason/",
+				"previousList": "https://example.com/previousList",
+				"previousListReason": "https://example.com/previousListReason",
+				"reasonDescription": "http://example.com/reasonDescription"
+			}
+		],
+		"id": {},
+		"type": [],
+		"issuer": [],
+		"dateIssued": {},
+		"credentialSubject": {
+			"id": {},
+			"type": [],
+			"revocationListParam": [],
+			"bitLength":{},
+			"revocationList": {},
+			"reason": {},
+			"previousList": [],
+			"previousListReason": [],
+			"reasonDescription": []
+		}
+	},
+	{}
+]

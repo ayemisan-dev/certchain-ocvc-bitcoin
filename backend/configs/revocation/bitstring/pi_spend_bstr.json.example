@@ -1,0 +1,17 @@
+{
+  "tx_type": "PI",
+  "data_type": "Text",
+  "encoding_method": "No_Encoding",
+  "extra_data_type": "Tx_Data_ScriptHash",
+  "extra_encoding_method": "CBOR_ZLIB",
+  "segwit_status": "spend",
+  "data_path": "backend/data/vc/revocation/bitStr_vi_full.json",
+  "ps_txid": "REPLACE_WITH_PS_SPEND_TXID",
+  "prev_txid": "REPLACE_WITH_PI_CREATE_TXID",
+  "vout": 0,
+  "amount": 9.97,
+  "send_value": 9.96,
+  "receive_addr": "REPLACE_WITH_LEGACY_ADDRESS",
+  "wif_privkey": "REPLACE_WITH_REVOCATION_WIF_KEY",
+  "pub_key": ""
+}

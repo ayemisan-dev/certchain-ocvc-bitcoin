@@ -1,0 +1,1 @@
+"""HTTP client for the standalone ``bc_index`` service."""

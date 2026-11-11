@@ -1,0 +1,48 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/vc-revocation-list-2020/v1",
+        {
+            "@base": "https://example.com/credentials/status/v1/",
+            "dateIssued": "https://schema.org/dateIssued",
+            "revocationListParam": "https://example.com/revocationListParam",
+            "revocationList": "https://example.com/revocationList",
+            "reason": "https://example.com/reason/",
+            "previousList": "https://example.com/previousList",
+            "previousListReason": "https://example.com/previousListReason",
+            "reasonDescription": "http://example.com/reasonDescription"
+        }
+    ],
+    "id": "#1",
+    "type": [
+        "VerifiableCredential",
+        "https://example.com/credentials/status/v1/OCVCRevListBtsCredential"
+    ],
+    "dateIssued": "2025-06-16",
+    "credentialSubject": {
+        "id": "1#list",
+        "type": [
+            "https://example.com/credentials/status/v1/OCVCRevListBts",
+            "https://example.com/credentials/status/v1/FullSnapshot"
+        ],
+        "reasonDescription": [
+            "academic_misconduct",
+            "administrative_error",
+            "fraud",
+            "Others"
+        ],
+        "reason": [
+            1,
+            2
+        ],
+        "revocationList": [
+            2,
+            3
+        ],
+        "revocationListParam": [
+            32,
+            2
+        ]
+    },
+    "issuer": "did:btcr:xjxq-qyqq-qqdg-t4kr"
+}

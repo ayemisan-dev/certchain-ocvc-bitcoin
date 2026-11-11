@@ -1,0 +1,1 @@
+"""Bitcoin infrastructure: JSON-RPC client, SegWit transaction builder, address helpers."""

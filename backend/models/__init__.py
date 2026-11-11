@@ -1,0 +1,1 @@
+"""Data models (pydantic) shared across services and API layers."""

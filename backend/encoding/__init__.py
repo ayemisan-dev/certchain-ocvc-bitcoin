@@ -1,0 +1,1 @@
+"""Pure encoding/decoding utilities (no external services)."""

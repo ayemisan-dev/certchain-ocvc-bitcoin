@@ -1,0 +1,20 @@
+{
+  "sequence": 1,
+  "file_name": "bsc_batch_1",
+  "prev_txid": "REPLACE_WITH_PI_SPEND_TXID",
+  "vout": 0,
+  "send_value": 9.95,
+  "priv_key": "REPLACE_WITH_WIF_PRIVATE_KEY",
+  "receive_addr": "REPLACE_WITH_LEGACY_ADDRESS",
+  "full_vc_list_path": "backend/data/vc/degree/full_vc_list_5.json",
+  "vc_temp_path": "backend/data/vc/degree/bsc_vc_spec.json",
+  "vc_fp_tem_path": "backend/data/vc/degree/bsc_vc_fp_temp.json",
+  "vc_fp_path": "backend/data/vc_fp/",
+  "qrcode_path": "backend/data/qr_code/",
+  "vc_type": "BSc",
+  "tx_type": "PD",
+  "data_type": "Hash_Value",
+  "encoding_method": "SHA256",
+  "extra_data_type": "Text",
+  "extra_encoding_method": "No_Encoding"
+}

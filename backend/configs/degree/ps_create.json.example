@@ -1,0 +1,11 @@
+{
+  "tx_type": "PS",
+  "data_type": "Tx_Data_ScriptHash",
+  "segwit_status": "create",
+  "data_path": "backend/data/vc/degree/bsc_vc_spec.json",
+  "prev_txid": "REPLACE_WITH_64_HEX_CHARS",
+  "vout": 0,
+  "send_value": 9.99,
+  "priv_key": "REPLACE_WITH_WIF_PRIVATE_KEY",
+  "pub_key": ""
+}

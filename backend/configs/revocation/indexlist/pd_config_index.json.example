@@ -1,0 +1,18 @@
+{
+  "sequence": 12,
+  "revoked_list": [416, 439, 480, 481, 493, 504, 509, 512, 515, 520, 526, 537],
+  "reason_list": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+  "bitPerCred": 2,
+  "prev_txid": "REPLACE_WITH_PI_SPEND_TXID",
+  "vout": 0,
+  "send_value": 4.99955847,
+  "vc_size": 1000,
+  "tx_type": "PD",
+  "rev_type": "indexList",
+  "data_type": "Encoded_Data",
+  "encoding_method": "CBOR",
+  "extra_data_type": "Text",
+  "extra_encoding_method": "No_Encoding",
+  "priv_key": "REPLACE_WITH_REVOCATION_WIF_KEY",
+  "receive_addr": "REPLACE_WITH_LEGACY_ADDRESS"
+}

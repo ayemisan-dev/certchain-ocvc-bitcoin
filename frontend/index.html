@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CertChain-OCVC | Verify Credential</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body class="page-verify">
+    <main class="card" role="main">
+        <header class="card-header">
+            <h1>Credential Verification</h1>
+            <p class="subtitle">Bitcoin-based On-chain Verifiable Credential</p>
+        </header>
+
+        <div class="tabs" role="tablist">
+            <button id="tab-upload" class="tab active" data-mode="upload" role="tab"
+                    aria-selected="true">Upload QR Image</button>
+            <button id="tab-input" class="tab" data-mode="input" role="tab"
+                    aria-selected="false">Paste Fingerprint</button>
+        </div>
+
+        <div id="upload-panel" class="panel active">
+            <label for="file-input" class="dropzone" id="dropzone">
+                <span class="dropzone-icon" aria-hidden="true">&#x1F4F7;</span>
+                <p class="dropzone-title">Click to choose a QR image</p>
+                <p class="dropzone-hint">PNG / JPG, up to 10 MB</p>
+                <p id="file-name" class="file-name"></p>
+            </label>
+            <input type="file" id="file-input" accept="image/*" hidden>
+        </div>
+
+        <div id="input-panel" class="panel">
+            <label for="fingerprint-input" class="field-label">
+                Fingerprint (Base64URL string or vc_fp JSON)
+            </label>
+            <textarea id="fingerprint-input" rows="4"
+                      placeholder="Paste the encoded fingerprint or vc_fp JSON here..."></textarea>
+        </div>
+
+        <button id="verify-btn" class="primary-btn" type="button">
+            Run Verification
+        </button>
+        <div id="status" class="status" role="status" aria-live="polite"></div>
+    </main>
+
+    <script src="/js/verify.js"></script>
+</body>
+</html>

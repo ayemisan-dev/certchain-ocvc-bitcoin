@@ -1,0 +1,371 @@
+[
+    [
+        [
+            "did:btcr:xwxq-qyqq-qqhz-s97e"
+        ]
+    ],
+    [
+        [
+            [
+                "OCVCRevListBtsStatus",
+                "FullSnapshot"
+            ],
+            "did:btcr:xjxq-qyqq-qqdg-t4kr",
+            [
+                [
+                    "btc:testnet:legacy"
+                ]
+            ]
+        ]
+    ],
+    [
+        [
+            "co/001",
+            6016301,
+            "Information Technology Fundamentals",
+            3
+        ],
+        [
+            "co/002",
+            6016302,
+            "Mathematics for Information Technology",
+            3
+        ],
+        [
+            "co/003",
+            6016303,
+            "Discrete Mathematics",
+            3
+        ],
+        [
+            "co/004",
+            6016304,
+            "Probability and Statistics",
+            3
+        ],
+        [
+            "co/005",
+            6016305,
+            "Management Information Systems",
+            3
+        ],
+        [
+            "co/006",
+            6016306,
+            "Information Systems Analysis and Design",
+            3
+        ],
+        [
+            "co/007",
+            6016308,
+            "Database System Concepts",
+            3
+        ],
+        [
+            "co/008",
+            6016311,
+            "Multimedia Technology",
+            3
+        ],
+        [
+            "co/009",
+            6016312,
+            "Web Technology",
+            3
+        ],
+        [
+            "co/010",
+            6016313,
+            "Introduction to Computer Networks",
+            3
+        ],
+        [
+            "co/011",
+            6016314,
+            "Problem Solving in Information Technology",
+            3
+        ],
+        [
+            "co/012",
+            6016315,
+            "Computer Programming",
+            3
+        ],
+        [
+            "co/013",
+            6016316,
+            "Data Structures and Algorithms",
+            3
+        ],
+        [
+            "co/014",
+            6016317,
+            "Object-Oriented Programming",
+            3
+        ],
+        [
+            "co/015",
+            6016319,
+            "Introduction to Computer Systems",
+            3
+        ],
+        [
+            "co/016",
+            6016320,
+            "Computer Systems Organization and Operating System",
+            3
+        ],
+        [
+            "co/017",
+            6016321,
+            "Software Engineering",
+            3
+        ],
+        [
+            "co/018",
+            6016322,
+            "Web Programming",
+            3
+        ],
+        [
+            "co/019",
+            90101007,
+            "Introduction to Mathematical Economics",
+            3
+        ],
+        [
+            "co/020",
+            90201001,
+            "Foundation English 1",
+            3
+        ],
+        [
+            "co/021",
+            90201002,
+            "Foundation English 2",
+            3
+        ],
+        [
+            "co/022",
+            90201012,
+            "Development of Reading and Writing Skill in English",
+            3
+        ],
+        [
+            "co/023",
+            90201026,
+            "English for Communication",
+            3
+        ],
+        [
+            "co/024",
+            90401013,
+            "General Business",
+            3
+        ],
+        [
+            "co/025",
+            6016307,
+            "Information Technology Project Management",
+            3
+        ],
+        [
+            "co/026",
+            6016309,
+            "Information System Security and IT Laws",
+            3
+        ],
+        [
+            "co/027",
+            6016310,
+            "Human Interface Design",
+            3
+        ],
+        [
+            "co/028",
+            6016318,
+            "Seminar on Professional Communication Skills",
+            3
+        ],
+        [
+            "co/029",
+            6016323,
+            "Mobile Device Programming",
+            3
+        ],
+        [
+            "co/030",
+            6016324,
+            "Requirement Engineering",
+            3
+        ],
+        [
+            "co/031",
+            6016325,
+            "Service-Oriented Programming",
+            3
+        ],
+        [
+            "co/032",
+            6016326,
+            "Software Verification and Validation",
+            3
+        ],
+        [
+            "co/033",
+            6016327,
+            "Cloud-Based Enterprise Application Development",
+            3
+        ],
+        [
+            "co/034",
+            6016328,
+            "Software Development Tools and Environments",
+            3
+        ],
+        [
+            "co/035",
+            6016329,
+            "Project in Software Engineering 1",
+            3
+        ],
+        [
+            "co/036",
+            6016330,
+            "Project in Software Engineering 2",
+            3
+        ],
+        [
+            "co/037",
+            6016331,
+            "Practical Computer Networking",
+            3
+        ],
+        [
+            "co/038",
+            6016332,
+            "Interconnected Communication Networks",
+            3
+        ],
+        [
+            "co/039",
+            6016333,
+            "Internet Service Technology",
+            3
+        ],
+        [
+            "co/040",
+            6016334,
+            "Wireless Network Technology",
+            3
+        ],
+        [
+            "co/041",
+            6016335,
+            "Introduction to cloud computing",
+            3
+        ],
+        [
+            "co/042",
+            6016336,
+            "Network and Information Technology Infrastructure Management",
+            3
+        ],
+        [
+            "co/043",
+            6016337,
+            "Network Performance",
+            3
+        ],
+        [
+            "co/044",
+            6016338,
+            "Introduction to Network Design",
+            3
+        ],
+        [
+            "co/045",
+            6016339,
+            "Project in Network and System Technology 1",
+            3
+        ],
+        [
+            "co/046",
+            6016340,
+            "Project in Network and System Technology 2",
+            3
+        ],
+        [
+            "co/047",
+            6016341,
+            "Multimedia Programming",
+            3
+        ],
+        [
+            "co/048",
+            6016342,
+            "Computer Graphics and Animation",
+            3
+        ],
+        [
+            "co/049",
+            6016343,
+            "Game Design and Development",
+            3
+        ],
+        [
+            "co/050",
+            6016344,
+            "Graphics Design Principles",
+            3
+        ],
+        [
+            "co/051",
+            6016345,
+            "3D Computer Animation",
+            3
+        ],
+        [
+            "co/052",
+            6016346,
+            "Web Design and Development",
+            3
+        ],
+        [
+            "co/053",
+            6016347,
+            "Fundamentals of digital storytelling and cinematography",
+            3
+        ],
+        [
+            "co/054",
+            6016348,
+            "Advanced Game Development",
+            3
+        ],
+        [
+            "co/055",
+            6016349,
+            "Project in Multimedia and Game Development 1",
+            3
+        ],
+        [
+            "co/056",
+            6016350,
+            "Project in Multimedia and Game Development 2",
+            3
+        ],
+        [
+            "co/057",
+            90304004,
+            "Report Writing",
+            3
+        ],
+        [
+            "co/058",
+            90401011,
+            "Entrepreneurship",
+            3
+        ]
+    ]
+]

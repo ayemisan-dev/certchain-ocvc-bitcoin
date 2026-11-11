@@ -1,0 +1,467 @@
+/* =========================================================================
+   CSS variables
+   ========================================================================= */
+:root {
+    /* Dark theme (verify page) */
+    --bg-dark: #0f172a;
+    --card-dark: #1e293b;
+    --border-dark: #475569;
+    --text-dark: #e2e8f0;
+    --text-muted: #94a3b8;
+    --primary: #6366f1;
+    --primary-hover: #4f46e5;
+    --success: #10b981;
+    --danger: #ef4444;
+    --warning: #f59e0b;
+
+    /* Light theme (result page) */
+    --bg-light: #eeeeee;
+    --paper: #ffffff;
+    --text-light: #333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* =========================================================================
+   Verify page (index.html)
+   ========================================================================= */
+body.page-verify {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--bg-dark);
+    color: var(--text-dark);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background: var(--card-dark);
+    padding: 2rem;
+    border-radius: 1.5rem;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+.card-header h1 {
+    text-align: center;
+    margin: 0 0 6px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card-header .subtitle {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin: 0 0 24px;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tab {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid var(--border-dark);
+    background: transparent;
+    color: var(--text-muted);
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.2s, color 0.2s;
+    font-size: 0.9rem;
+}
+
+.tab.active {
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+}
+
+.tab:hover:not(.active) {
+    border-color: var(--primary);
+    color: var(--text-dark);
+}
+
+/* Panels */
+.panel {
+    display: none;
+    margin-bottom: 16px;
+}
+
+.panel.active {
+    display: block;
+}
+
+/* Dropzone */
+.dropzone {
+    display: block;
+    border: 2px dashed var(--border-dark);
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.15);
+    transition: border-color 0.2s, background 0.2s;
+}
+
+.dropzone:hover {
+    border-color: var(--primary);
+    background: rgba(99, 102, 241, 0.08);
+}
+
+.dropzone-icon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.dropzone-title {
+    margin: 0 0 4px;
+    color: var(--text-dark);
+    font-size: 0.95rem;
+}
+
+.dropzone-hint {
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 0.75rem;
+}
+
+.file-name {
+    margin: 8px 0 0;
+    font-size: 0.8rem;
+    color: var(--primary);
+    min-height: 1.2em;
+}
+
+/* Input */
+.field-label {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 100px;
+    background: rgba(0, 0, 0, 0.2);
+    color: var(--text-dark);
+    border: 1px solid var(--border-dark);
+    border-radius: 8px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 0.85rem;
+    resize: vertical;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+}
+
+/* Button */
+.primary-btn {
+    width: 100%;
+    background: var(--success);
+    color: #fff;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.primary-btn:hover:not(:disabled) {
+    background: #059669;
+}
+
+.primary-btn:disabled {
+    background: #64748b;
+    cursor: not-allowed;
+}
+
+/* Status message */
+.status {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 0.9rem;
+    min-height: 1.4em;
+}
+
+.status-info {
+    color: var(--text-muted);
+}
+
+.status-error {
+    color: var(--danger);
+}
+
+/* =========================================================================
+   Result page (result.html)
+   ========================================================================= */
+body.page-result {
+    background: var(--bg-light);
+    margin: 0;
+    padding: 20px;
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-light);
+}
+
+.banner {
+    width: 100%;
+    max-width: 800px;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 0.95rem;
+}
+
+.banner-valid {
+    background: #dcfce7;
+    color: #166534;
+    border-color: #166534;
+}
+
+.banner-revoked,
+.banner-invalid {
+    background: #fee2e2;
+    color: #b91c1c;
+    border-color: #b91c1c;
+}
+
+.transcript-root {
+    width: 100%;
+    max-width: 800px;
+}
+
+.empty-state {
+    background: var(--paper);
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--text-muted);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.empty-state a {
+    color: var(--primary);
+}
+
+/* Transcript paper */
+.transcript {
+    background: var(--paper);
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    min-height: 1050px;
+    font-size: 11px;
+    line-height: 1.2;
+}
+
+.transcript-header {
+    text-align: center;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.transcript-header .logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70px;
+}
+
+.transcript-header h1 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.transcript-header .location {
+    font-size: 12px;
+    margin: 2px 0;
+    font-weight: bold;
+}
+
+.transcript-header h2 {
+    font-size: 12px;
+    margin: 0;
+}
+
+.photo-box {
+    position: absolute;
+    right: 40px;
+    top: 110px;
+    width: 90px;
+    height: 110px;
+    border: 1px solid var(--text-light);
+    text-align: center;
+    line-height: 110px;
+    font-size: 10px;
+    background: var(--paper);
+    z-index: 10;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px 30px;
+    margin-bottom: 20px;
+    width: 85%;
+    font-size: 11px;
+}
+
+.info-item .label {
+    color: var(--text-light);
+}
+
+.info-item .value {
+    font-weight: bold;
+}
+
+.transcript-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.column {
+    width: 48%;
+}
+
+.semester-title {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid var(--text-light);
+    margin: 15px 0 5px;
+    padding-bottom: 2px;
+    font-size: 11px;
+}
+
+.semester table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.semester th {
+    text-align: left;
+    border-bottom: 1px solid var(--text-light);
+    font-weight: bold;
+}
+
+.semester td.num,
+.semester th.num {
+    text-align: center;
+}
+
+.gpa-line {
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.continue-mark {
+    text-align: center;
+    font-style: italic;
+    font-size: 9px;
+    margin: 15px 0;
+    color: #666;
+}
+
+.summary {
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px dashed var(--text-light);
+    padding-top: 10px;
+}
+
+.summary .closed-mark {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+.transcript-footer {
+    margin-top: 50px;
+    text-align: right;
+    line-height: 1.6;
+    font-size: 11px;
+}
+
+.signature {
+    margin-top: 10px;
+}
+
+.back-link-row {
+    margin-top: 20px;
+}
+
+.back-link {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* =========================================================================
+   Responsive
+   ========================================================================= */
+@media (max-width: 768px) {
+    body.page-result {
+        padding: 10px;
+    }
+
+    .transcript {
+        padding: 20px;
+        min-height: auto;
+    }
+
+    .transcript-columns {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .photo-box {
+        display: none;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .transcript-header .logo {
+        position: static;
+        display: block;
+        margin: 0 auto 10px;
+    }
+}

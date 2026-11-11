@@ -1,0 +1,1 @@
+"""HTTP API layer (Flask blueprints, request/response schemas)."""

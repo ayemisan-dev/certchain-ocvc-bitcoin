@@ -1,0 +1,13 @@
+{
+  "tx_type": "PS",
+  "data_type": "Tx_Data_ScriptHash",
+  "segwit_status": "spend",
+  "data_path": "backend/data/vc/degree/bsc_vc_spec.json",
+  "prev_txid": "REPLACE_WITH_PS_CREATE_TXID",
+  "vout": 0,
+  "amount": 9.99,
+  "send_value": 9.98,
+  "receive_addr": "REPLACE_WITH_LEGACY_ADDRESS",
+  "wif_privkey": "REPLACE_WITH_WIF_PRIVATE_KEY",
+  "pub_key": ""
+}

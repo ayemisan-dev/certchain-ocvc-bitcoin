@@ -1,0 +1,19 @@
+{
+  "sequence": 1,
+  "revoked_list": [2, 3],
+  "reason_list": [1, 2],
+  "bitPerCred": 2,
+  "bits_len": 1000,
+  "m": 32,
+  "prev_txid": "REPLACE_WITH_PI_SPEND_TXID",
+  "vout": 0,
+  "send_value": 9.94,
+  "tx_type": "PD",
+  "rev_type": "bitstring",
+  "data_type": "Encoded_Data",
+  "encoding_method": "CBOR",
+  "extra_data_type": "Text",
+  "extra_encoding_method": "No_Encoding",
+  "priv_key": "REPLACE_WITH_REVOCATION_WIF_KEY",
+  "receive_addr": "REPLACE_WITH_LEGACY_ADDRESS"
+}
