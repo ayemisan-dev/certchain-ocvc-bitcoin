@@ -92,6 +92,8 @@ certchain-ocvc-bitcoin/
 
 ## Local Development (macOS / Linux)
 
+Refer to [docs/development.md](/docs/development.md) for detailed setup. The short version:
+
 ### 1. Start Dependencies
 
 ```bash 
